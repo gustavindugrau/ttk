@@ -40,4 +40,13 @@ Legenda: ✅ Decidido · 🟡 Proposto · 🧪 A testar · ❓ Aberto
 _A definir quando planejarmos a Parte 2._
 
 ## Parte 3: postagem
-_A definir quando planejarmos a Parte 3._
+
+| Parâmetro | Valor | Usado em | Status |
+|---|---|---|---|
+| `POSTS_POR_DIA` | 7 | P3.1.2 | ✅ |
+| `HORARIOS` | 08h, 10h, 12h, 14h, 17h, 19h, 21h | P3.1.2 | 🟡 |
+| `HORARIOS_NOBRES` | 12h, 19h, 21h (palpite inicial) | P3.1.4 | 🟡 |
+| `MAX_MESMO_EPISODIO_DIA` | 1 (quando possível) | P3.1.4 | 🟡 |
+| `IG_ATRASO_MAX` | 60 min | P3.2.3 | 🟡 |
+| `IG_TENTATIVAS` | 3 | P3.2.4 | 🟡 |
+| `TIKTOK_ANTECEDENCIA_MAX` | 10 dias (limite do TikTok Studio) | P3.3.3 | ✅ |

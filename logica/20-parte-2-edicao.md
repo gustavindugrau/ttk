@@ -5,6 +5,11 @@ Status: ❓ **a planejar depois da Parte 3** (D32). Abaixo está só o esboço.
 **Entrada:** vídeo do episódio + cortes aprovados (`08_cortes.json`).
 **Saída:** um vídeo vertical 9:16 pronto por corte.
 
+## Obrigatório vindo da Parte 3
+- **Originalidade (R9):** cada corte precisa acrescentar algo próprio, ou o Instagram e o
+  TikTok param de recomendar a conta. Decidir aqui o que acrescentar.
+- Entregar, por corte, o arquivo de vídeo final e o texto da legenda para o pacote semanal (P3.3.2).
+
 ## O que precisa existir
 1. Corte do trecho (com pequena margem antes e depois da fala).
 2. Reenquadrar 9:16 seguindo o rosto de quem fala, em qualquer câmera (D05).

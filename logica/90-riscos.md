@@ -10,6 +10,8 @@
 | R6 | Gerador local (Qwen 7B) deixar passar bons momentos | Média | Exemplos das suas referências + calibração |
 | R7 | Errar quem está falando no plano aberto | Média | Layout reserva |
 | R8 | Juiz depende do Claude Code (limite do plano, internet) | Baixa | Julgar em lote; Qwen como juiz reserva |
+| R9 | Alcance zerado por "conteúdo não original" | Alta | A edição (Parte 2) precisa acrescentar algo próprio |
+| R10 | PC desligado no horário de postar no Instagram | Média | Postar com atraso ou passar para a próxima vaga |
 
 ## R1. Direitos autorais (o maior risco do projeto)
 Postar ~50 cortes por semana de terceiros sem autorização (D03) tende a gerar remoção de
@@ -37,9 +39,21 @@ Estimativa grosseira, a medir no teste: 30–60 min por episódio de 1h30. Com 5
 episódio (D28), são ~10 episódios por semana, ou ~5 a 10 h de máquina. Deixar rodando à noite.
 
 ## R5. Postagem automática no TikTok
-A API oficial sem auditoria só publica como privado, e as regras da auditoria parecem não
-aprovar ferramentas para postar nas próprias contas. Confirmar as regras atuais na Parte 3.
-Plano B: agendar em lote pelo TikTok Studio (web, grátis).
+**Confirmado em 18/10/2026:** a API oficial sem auditoria só publica como privado, e as
+regras da auditoria recusam ferramentas para as próprias contas e apps que copiam conteúdo
+de outras plataformas. Resolvido com agendamento manual no TikTok Studio (D36).
+
+## R9. Alcance zerado por "conteúdo não original"
+- **Instagram (abr/2026):** contas que postam principalmente conteúdo de outras pessoas
+  deixaram de ser recomendadas a quem não as segue. Recortar e dar crédito não bastam.
+- **TikTok:** tira do "Para Você" conteúdo repostado sem edição criativa. Fonte não oficial.
+- **Efeito:** a conta pode postar 50 por semana e quase ninguém de fora ver.
+- **Mitigação:** a Parte 2 precisa acrescentar algo próprio a cada corte (título, gancho,
+  legenda, talvez comentário). Ponto obrigatório ao planejar a Parte 2.
+
+## R10. PC desligado no horário de postar no Instagram
+A API do Instagram não agenda sozinha; quem dispara é o seu PC (P3.2.1). Mitigação:
+atraso de até 60 min é aceito; passou disso, o corte vai para a próxima vaga livre (P3.2.3).
 
 ## R6. Gerador local deixar passar bons momentos
 Com o modelo híbrido (D33), o juiz deixou de ser o modelo pequeno. Isso reduziu o risco

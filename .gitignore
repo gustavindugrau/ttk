@@ -1,0 +1,32 @@
+# Segredos (chaves do TikTok, Instagram, etc.)
+.env
+.env.*
+!.env.example
+
+# Vídeos e áudios (episódios baixados e cortes renderizados)
+*.mp4
+*.mkv
+*.webm
+*.mov
+*.avi
+*.m4a
+*.mp3
+*.wav
+*.opus
+*.flac
+*.part
+*.ytdl
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# Configurações pessoais do Claude Code (cada máquina tem a sua)
+.claude/settings.local.json
+
+# Sistema
+Thumbs.db
+desktop.ini
+.DS_Store

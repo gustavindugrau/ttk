@@ -40,8 +40,8 @@ YouTube → [0] Baixar → [1] Identificar cortes → aprovação humana → [2]
 |---|---|
 | 0. Baixar episódio | 🟡 Proposto (yt-dlp) |
 | 1. Identificar cortes | 🟡 Regras detalhadas; as 🟡 serão revisadas com as suas referências |
-| 2. Edição | ❓ A planejar depois da Parte 3 (D32) |
-| 3. Postagem | ❓ **Próxima a planejar** (D32) |
+| 2. Edição | ❓ **Próxima a planejar**. Precisa resolver o risco R9 (originalidade) |
+| 3. Postagem | 🟡 Planejada em 18/10/2026: Instagram automático, TikTok agendado à mão |
 
 **Lembrete:** depois de definir toda a lógica, você passa as referências do que é
 interessante (D30). Ver [91-perguntas-abertas.md](91-perguntas-abertas.md).

@@ -1,0 +1,17 @@
+{
+  "hooks": {
+    "SessionStart": [
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "shell": "bash",
+            "command": "GIT_TERMINAL_PROMPT=0 git -C \"$CLAUDE_PROJECT_DIR\" pull --ff-only 2>&1 || echo \"AVISO: git pull falhou. Avise o usuário antes de editar arquivos.\"",
+            "timeout": 30,
+            "statusMessage": "Puxando a versão mais recente do GitHub..."
+          }
+        ]
+      }
+    ]
+  }
+}

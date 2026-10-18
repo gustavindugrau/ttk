@@ -58,3 +58,9 @@ Regras deste arquivo:
 |---|---|---|---|
 | D24 | Não usar robôs não oficiais (tiktok-uploader, instagrapi) | Violam os termos de uso e podem banir a conta | ✅ |
 | D26 | Upload-Post descartado | 10 posts grátis/mês não atendem 50/semana (D04) | ✅ |
+| D35 | Instagram: postagem automática pela API oficial, disparada pelo PC nos horários | Grátis, até 100 posts/24h, envio direto do PC. Sua escolha de 18/10/2026 | ✅ |
+| D36 | TikTok: agendamento manual no TikTok Studio, com pacote semanal pronto | A via automática oficial está fechada: sem auditoria só posta privado, e a auditoria recusa ferramentas para as próprias contas e conteúdo copiado. Sua escolha de 18/10/2026 | ✅ |
+| D37 | Sem crédito ao podcast original na legenda | Sua escolha de 18/10/2026 | ✅ |
+| D38 | 1 conta no TikTok + 1 no Instagram, com os mesmos cortes | Sua escolha de 18/10/2026 | ✅ |
+| D39 | 7 horários fixos por dia, ajustáveis depois pelos dados | Sua escolha de 18/10/2026 | ✅ |
+| D40 | Legenda do post e hashtags: definidas a partir das suas referências | Seu pedido de 18/10/2026 | ❓ |
