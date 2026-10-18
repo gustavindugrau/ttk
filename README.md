@@ -31,9 +31,10 @@ do GitHub, sem instalar nada na máquina.
 | Quando | O que fazer |
 |---|---|
 | Ao abrir | O Claude já roda `git pull` sozinho. Se ele avisar de algum erro, resolva antes de editar. |
-| Ao terminar | Peça ao Claude: **"sobe o que fizemos"** (ele faz commit e `git push`). |
+| Ao terminar | Diga ao Claude **"terminei"**. Ele escreve um resumo em [resumos-de-chat/](resumos-de-chat/README.md), atualiza o "onde paramos" e envia tudo ao GitHub. |
 
-Se esquecer de enviar numa máquina, a outra vai trabalhar numa versão velha e pode dar conflito.
+Se fechar o app sem avisar, nada é enviado, e a outra máquina vai trabalhar numa versão velha.
+Use **uma sessão do Claude por vez**: duas editando ao mesmo tempo misturam o trabalho.
 
 ## O que fica fora do git
 
